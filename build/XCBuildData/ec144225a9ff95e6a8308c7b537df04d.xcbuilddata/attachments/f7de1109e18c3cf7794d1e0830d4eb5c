@@ -1,0 +1,5 @@
+ extern const unsigned char Pods_ReelAI_ReelAIUITestsVersionString[];
+ extern const double Pods_ReelAI_ReelAIUITestsVersionNumber;
+
+ const unsigned char Pods_ReelAI_ReelAIUITestsVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_ReelAI_ReelAIUITests  PROJECT:Pods-1" "\n";
+ const double Pods_ReelAI_ReelAIUITestsVersionNumber __attribute__ ((used)) = (double)1.;

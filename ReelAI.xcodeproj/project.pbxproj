@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		51B28419120C57F012432F0C /* Pods_ReelAI_ReelAIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10A36A2998599F4400B476C /* Pods_ReelAI_ReelAIUITests.framework */; };
+		5687D4FA2D525B9C00ABD83C /* Pods_ReelAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50E05328B85051A3C5928C6 /* Pods_ReelAI.framework */; };
+		5687D4FB2D525B9C00ABD83C /* Pods_ReelAI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B50E05328B85051A3C5928C6 /* Pods_ReelAI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		56C443C62D51695C008B85D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56C443C52D51695C008B85D2 /* GoogleService-Info.plist */; };
+		88AD4AFD9584A1EFFEB3C49A /* Pods_ReelAITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA09657C2B90C4F26A7515A /* Pods_ReelAITests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		56C4439A2D51578D008B85D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -23,10 +31,34 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5687D4FC2D525B9C00ABD83C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5687D4FB2D525B9C00ABD83C /* Pods_ReelAI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0E3388112A040DDC05EC7626 /* Pods-ReelAI-ReelAIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReelAI-ReelAIUITests.release.xcconfig"; path = "Target Support Files/Pods-ReelAI-ReelAIUITests/Pods-ReelAI-ReelAIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1A8DE5E8DD9074DA95620446 /* Pods-ReelAITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReelAITests.debug.xcconfig"; path = "Target Support Files/Pods-ReelAITests/Pods-ReelAITests.debug.xcconfig"; sourceTree = "<group>"; };
+		289FED5806CC1581670B09CE /* Pods-ReelAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReelAI.release.xcconfig"; path = "Target Support Files/Pods-ReelAI/Pods-ReelAI.release.xcconfig"; sourceTree = "<group>"; };
 		56C443892D51578A008B85D2 /* ReelAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReelAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C443992D51578D008B85D2 /* ReelAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReelAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C443A32D51578D008B85D2 /* ReelAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReelAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C443C52D51695C008B85D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8A7054BC93D518B81313DA45 /* Pods-ReelAITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReelAITests.release.xcconfig"; path = "Target Support Files/Pods-ReelAITests/Pods-ReelAITests.release.xcconfig"; sourceTree = "<group>"; };
+		B50E05328B85051A3C5928C6 /* Pods_ReelAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReelAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5139F6B50100C8DDD115DF7 /* Pods-ReelAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReelAI.debug.xcconfig"; path = "Target Support Files/Pods-ReelAI/Pods-ReelAI.debug.xcconfig"; sourceTree = "<group>"; };
+		C10A36A2998599F4400B476C /* Pods_ReelAI_ReelAIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReelAI_ReelAIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA09657C2B90C4F26A7515A /* Pods_ReelAITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReelAITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83801A1EBBC6FD8A3CECFEB /* Pods-ReelAI-ReelAIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReelAI-ReelAIUITests.debug.xcconfig"; path = "Target Support Files/Pods-ReelAI-ReelAIUITests/Pods-ReelAI-ReelAIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5687D4FA2D525B9C00ABD83C /* Pods_ReelAI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88AD4AFD9584A1EFFEB3C49A /* Pods_ReelAITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51B28419120C57F012432F0C /* Pods_ReelAI_ReelAIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +114,9 @@
 				56C4439C2D51578D008B85D2 /* ReelAITests */,
 				56C443A62D51578D008B85D2 /* ReelAIUITests */,
 				56C4438A2D51578A008B85D2 /* Products */,
+				56C443C52D51695C008B85D2 /* GoogleService-Info.plist */,
+				CD572076083514BD21497B71 /* Pods */,
+				C6694B92C324317190803F82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +130,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C6694B92C324317190803F82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B50E05328B85051A3C5928C6 /* Pods_ReelAI.framework */,
+				C10A36A2998599F4400B476C /* Pods_ReelAI_ReelAIUITests.framework */,
+				ECA09657C2B90C4F26A7515A /* Pods_ReelAITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD572076083514BD21497B71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5139F6B50100C8DDD115DF7 /* Pods-ReelAI.debug.xcconfig */,
+				289FED5806CC1581670B09CE /* Pods-ReelAI.release.xcconfig */,
+				F83801A1EBBC6FD8A3CECFEB /* Pods-ReelAI-ReelAIUITests.debug.xcconfig */,
+				0E3388112A040DDC05EC7626 /* Pods-ReelAI-ReelAIUITests.release.xcconfig */,
+				1A8DE5E8DD9074DA95620446 /* Pods-ReelAITests.debug.xcconfig */,
+				8A7054BC93D518B81313DA45 /* Pods-ReelAITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56C443AD2D51578D008B85D2 /* Build configuration list for PBXNativeTarget "ReelAI" */;
 			buildPhases = (
+				8347A3A6B1D86EABC8775FED /* [CP] Check Pods Manifest.lock */,
 				56C443852D51578A008B85D2 /* Sources */,
 				56C443862D51578A008B85D2 /* Frameworks */,
 				56C443872D51578A008B85D2 /* Resources */,
+				010026A3A7C92103B21FBF43 /* [CP] Embed Pods Frameworks */,
+				5687D4FC2D525B9C00ABD83C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,8 +175,6 @@
 				56C4438B2D51578A008B85D2 /* ReelAI */,
 			);
 			name = ReelAI;
-			packageProductDependencies = (
-			);
 			productName = ReelAI;
 			productReference = 56C443892D51578A008B85D2 /* ReelAI.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +183,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56C443B02D51578D008B85D2 /* Build configuration list for PBXNativeTarget "ReelAITests" */;
 			buildPhases = (
+				1F64C35619AB54572F409B7F /* [CP] Check Pods Manifest.lock */,
 				56C443952D51578D008B85D2 /* Sources */,
 				56C443962D51578D008B85D2 /* Frameworks */,
 				56C443972D51578D008B85D2 /* Resources */,
@@ -134,8 +197,6 @@
 				56C4439C2D51578D008B85D2 /* ReelAITests */,
 			);
 			name = ReelAITests;
-			packageProductDependencies = (
-			);
 			productName = ReelAITests;
 			productReference = 56C443992D51578D008B85D2 /* ReelAITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56C443B32D51578D008B85D2 /* Build configuration list for PBXNativeTarget "ReelAIUITests" */;
 			buildPhases = (
+				4DA74CE32DE18306CC9C9C62 /* [CP] Check Pods Manifest.lock */,
 				56C4439F2D51578D008B85D2 /* Sources */,
 				56C443A02D51578D008B85D2 /* Frameworks */,
 				56C443A12D51578D008B85D2 /* Resources */,
+				E26EF66701E3EBB9A487E260 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,8 +220,6 @@
 				56C443A62D51578D008B85D2 /* ReelAIUITests */,
 			);
 			name = ReelAIUITests;
-			packageProductDependencies = (
-			);
 			productName = ReelAIUITests;
 			productReference = 56C443A32D51578D008B85D2 /* ReelAIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -212,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C443C62D51695C008B85D2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +292,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		010026A3A7C92103B21FBF43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReelAI/Pods-ReelAI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReelAI/Pods-ReelAI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReelAI/Pods-ReelAI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F64C35619AB54572F409B7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReelAITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DA74CE32DE18306CC9C9C62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReelAI-ReelAIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8347A3A6B1D86EABC8775FED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReelAI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E26EF66701E3EBB9A487E260 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReelAI-ReelAIUITests/Pods-ReelAI-ReelAIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReelAI-ReelAIUITests/Pods-ReelAI-ReelAIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReelAI-ReelAIUITests/Pods-ReelAI-ReelAIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		56C443852D51578A008B85D2 /* Sources */ = {
@@ -390,19 +555,25 @@
 		};
 		56C443AE2D51578D008B85D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5139F6B50100C8DDD115DF7 /* Pods-ReelAI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ReelAI/ReelAI.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ReelAI/Preview Content\"";
+				DEVELOPMENT_TEAM = 29Q5QL352V;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -410,6 +581,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.patdeveloper.ReelAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -418,19 +590,25 @@
 		};
 		56C443AF2D51578D008B85D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289FED5806CC1581670B09CE /* Pods-ReelAI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ReelAI/ReelAI.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ReelAI/Preview Content\"";
+				DEVELOPMENT_TEAM = 29Q5QL352V;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -438,6 +616,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.patdeveloper.ReelAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,6 +625,7 @@
 		};
 		56C443B12D51578D008B85D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A8DE5E8DD9074DA95620446 /* Pods-ReelAITests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +644,7 @@
 		};
 		56C443B22D51578D008B85D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A7054BC93D518B81313DA45 /* Pods-ReelAITests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +663,7 @@
 		};
 		56C443B42D51578D008B85D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83801A1EBBC6FD8A3CECFEB /* Pods-ReelAI-ReelAIUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -498,6 +680,7 @@
 		};
 		56C443B52D51578D008B85D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3388112A040DDC05EC7626 /* Pods-ReelAI-ReelAIUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

@@ -1,0 +1,6 @@
+framework module Pods_ReelAI_ReelAIUITests {
+  umbrella header "Pods-ReelAI-ReelAIUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
