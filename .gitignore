@@ -1,0 +1,15 @@
+# Ignore Pods folder
+Pods/
+
+# Ignore build artifacts
+build/
+*.xcworkspace
+
+# User-specific Xcode files
+*.xcuserdatad
+
+# Swift Package Manager
+.build/
+
+# CocoaPods generated files
+Podfile.lock
